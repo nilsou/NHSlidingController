@@ -21,13 +21,12 @@ self.window.rootViewController = slidingController;
 That's it. You can now slide and reveal the bottom view controller.
 You can also trigger the open/close animation programatically.
 
-The `UIViewController+SlidingController` category adds the NHSlidingController as a property of your view controllers. In Any of your view controllers you can do:
+The `UIViewController+SlidingController` category adds the NHSlidingController as a property of your view controllers. In any of your view controllers you can do:
 
 ``` objective-c
 NHSlidingController *slidingController = self.slidingController;
 [slidingController toggleDrawer];
 ```
-
 
 ##Adding NHSlidingController to your project
 
