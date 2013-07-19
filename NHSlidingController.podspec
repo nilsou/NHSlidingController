@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
   s.homepage     = "http://github.com/nilsou/NHSlidingController"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Nils Hayat" => "nilsou@gmail.com" }
-  s.source       = { :git => "http://github.com/nilsou/NHSlidingController.git"}
-#  s.source       = { :git => "http://github.com/nilsou/NHSlidingController.git", :tag => "0.1.0" }
+  s.source       = { :git => "https://github.com/nilsou/NHSlidingController.git"}
+#  s.source       = { :git => "https://github.com/nilsou/NHSlidingController.git", :tag => "0.1.0" }
   s.platform     = :ios, '5.0'
   s.source_files = 'NHSlidingController/*.{h,m}'
 end
