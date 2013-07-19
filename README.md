@@ -2,7 +2,7 @@ NHSlidingController
 ===================
 A simple Sliding Controller (à la Path and Facebook) that bounces and has elasticity.
 
-NHSLidingController is a sliding controller to handle interfaces with a top and bottom view controllers where the top one slides to reveal the bottom one.
+NHSlidingController is a sliding controller to handle interfaces with a top and bottom view controllers where the top one slides to reveal the bottom one.
 
 There are a lot of alternative out there but none of them had the animations and elasticity feel right to me.
 
