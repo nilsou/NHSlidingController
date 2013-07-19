@@ -9,12 +9,16 @@ This class is completely self contained, from displaying to animation to handlin
 
 ##Usage
 
-Create the NHSlidingController with the top and bottom controller and assign it as the root ViewController from you window.
+Create the NHSlidingController with the top and bottom controller and assign it as the root ViewController from you window. Add this to your app delegate's -application:didFinishishLaunchingWithOptions: method.
 
 ``` objective-c
-UIViewController *topViewController; // Your Top ViewController
-UIViewController *bottomViewController; //Your Bottom ViewController
+UIViewController *topViewController = [[UIViewController alloc] init]; // Your Top ViewController
+topViewController.view.backgroundColor = [UIColor blueColor];
+UIViewController *bottomViewController = [[UIViewController alloc] init]; //Your Bottom ViewController
+bottomViewController.view.backgroundColor = [UIColor redColor];
+
 NHSlidingController *slidingController = [[NHSlidingController alloc] initWithTopViewController:topViewController bottomViewController:bottomViewController];
+
 self.window.rootViewController = slidingController;
 ```
 
