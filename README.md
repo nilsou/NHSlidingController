@@ -7,6 +7,8 @@ There are a lot of alternative out there but none of them had the animations and
 
 This class is completely self contained, from displaying to animation to handling taps and gestures. You create it, give it its top and bottom view controllers and that's it!
 
+NHSlidingController is Universal and can be used on both iPhone and iPad. It requires iOS 5 minimum and ARC.
+
 ##Usage
 
 Create the NHSlidingController with the top and bottom controller and assign it as the root ViewController from you window. Add this to your app delegate's -application:didFinishishLaunchingWithOptions: method.
