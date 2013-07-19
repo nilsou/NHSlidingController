@@ -1,9 +1,9 @@
 //
 //  UIViewController+SlidingController.m
-//  Hukkster
+//  
 //
 //  Created by Nils Hayat on 6/26/13.
-//  Copyright (c) 2013 Hukkster. All rights reserved.
+//  Copyright (c) 2013 Nils Hayat. All rights reserved.
 //
 
 #import "UIViewController+SlidingController.h"
