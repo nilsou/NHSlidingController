@@ -1,5 +1,6 @@
 NHSlidingController
 ===================
+A simple Sliding Controller (à la Path and Facebook) that bounces and has elasticity.
 
 NHSLidingController is a sliding controller to handle interfaces with a top and bottom view controllers where the top one slides to reveal the bottom one.
 
@@ -8,6 +9,14 @@ There are a lot of alternative out there but none of them had the animations and
 This class is completely self contained, from displaying to animation to handling taps and gestures. You create it, give it its top and bottom view controllers and that's it!
 
 NHSlidingController is Universal and can be used on both iPhone and iPad. It requires iOS 5 minimum and ARC.
+
+##Why?
+Instead of using one of the dozens of implementations available on github, I decided to write my own for 2 reasons:
+
+- I wanted something as minimal as possible in terms of code and I wanted it to be self contained.
+- I wanted the animations and elasticity to feel just right.
+
+Since I could not find one that satisfied these two conditions, I wrote NHSlidingController.
 
 ##Usage
 
