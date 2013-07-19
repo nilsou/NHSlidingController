@@ -43,6 +43,11 @@ NHSlidingController *slidingController = self.slidingController;
 [slidingController toggleDrawer];
 ```
 
+You can customize the maximum distance that the drawer will open:
+``` objective-c
+slidingController.slideDistance = 150.0;
+```
+
 ##Adding NHSlidingController to your project
 
 NHSlidingController is available on [CocoaPods](http://cocoapods.org). Add the following line to your `Podfile`:
