@@ -12,10 +12,10 @@ This class is completely self contained, from displaying to animation to handlin
 Create the NHSlidingController with the top and bottom controller and assign it as the root ViewController from you window.
 
 ``` objective-c
-	UIViewController *topViewController; // Your Top ViewController
-	UIViewController *bottomViewController; //Your Bottom ViewController
-	NHSlidingController *slidingController = [[NHSlidingController alloc] 	initWithTopViewController:topViewController 	bottomViewController:bottomViewController];
-	self.window.rootViewController = slidingController;
+UIViewController *topViewController; // Your Top ViewController
+UIViewController *bottomViewController; //Your Bottom ViewController
+NHSlidingController *slidingController = [[NHSlidingController alloc] initWithTopViewController:topViewController bottomViewController:bottomViewController];
+self.window.rootViewController = slidingController;
 ```
 
 That's it. You can now slide and reveal the bottom view controller.
@@ -25,7 +25,6 @@ The `UIViewController+SlidingController` category adds the NHSlidingController a
 
 ``` objective-c
 NHSlidingController *slidingController = self.slidingController;
-[slidingController toggleDrawer];
 [slidingController toggleDrawer];
 ```
 
